@@ -1,5 +1,24 @@
 # @backstage/plugin-scaffolder
 
+## 0.13.1
+
+### Patch Changes
+
+- 55361f3f7b: Added some deprecations as follows:
+
+  - **DEPRECATED**: `TemplateCardComponent` and `TaskPageComponent` props have been deprecated, and moved to a `components` prop instead. You can pass them in through there instead.
+  - **DEPRECATED**: `TemplateList` and `TemplateListProps` has been deprecated. Please use the `TemplateCard` to create your own list component instead.
+  - **DEPRECATED**: `setSecret` has been deprecated in favour of `setSecrets` when calling `useTemplateSecrets`
+
+  Other notable changes:
+
+  - `scaffolderApi.scaffold()` `values` type has been narrowed from `Record<string, any>` to `Record<string, JsonValue>` instead.
+  - Moved all navigation internally over to using `routeRefs` and `subRouteRefs`
+
+- Updated dependencies
+  - @backstage/integration@0.7.6
+  - @backstage/core-components@0.8.11
+
 ## 0.13.0
 
 ### Minor Changes

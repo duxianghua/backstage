@@ -1,5 +1,14 @@
 # example-app
 
+## 0.2.67
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-scaffolder@0.13.1
+  - @backstage/plugin-techdocs@0.15.0
+  - @backstage/core-components@0.8.11
+
 ## 0.2.66
 
 ### Patch Changes

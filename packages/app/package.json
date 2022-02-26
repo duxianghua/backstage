@@ -1,6 +1,6 @@
 {
   "name": "example-app",
-  "version": "0.2.66",
+  "version": "0.2.67",
   "private": true,
   "backstage": {
     "role": "frontend"
@@ -11,7 +11,7 @@
     "@backstage/catalog-model": "^0.11.0",
     "@backstage/cli": "^0.14.1",
     "@backstage/core-app-api": "^0.5.4",
-    "@backstage/core-components": "^0.8.10",
+    "@backstage/core-components": "^0.8.11",
     "@backstage/core-plugin-api": "^0.7.0",
     "@backstage/integration-react": "^0.1.23",
     "@backstage/plugin-airbrake": "^0.3.0",
@@ -44,12 +44,12 @@
     "@backstage/plugin-pagerduty": "0.3.27",
     "@backstage/plugin-permission-react": "^0.3.2",
     "@backstage/plugin-rollbar": "^0.4.0",
-    "@backstage/plugin-scaffolder": "^0.13.0",
+    "@backstage/plugin-scaffolder": "^0.13.1",
     "@backstage/plugin-search": "^0.7.1",
     "@backstage/plugin-sentry": "^0.3.38",
     "@backstage/plugin-shortcuts": "^0.2.1",
     "@backstage/plugin-tech-radar": "^0.5.7",
-    "@backstage/plugin-techdocs": "^0.14.0",
+    "@backstage/plugin-techdocs": "^0.15.0",
     "@backstage/plugin-todo": "^0.2.2",
     "@backstage/plugin-user-settings": "^0.3.21",
     "@backstage/search-common": "^0.2.4",
