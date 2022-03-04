@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: searcher-test2
-  description: Searcher-test2
+  name: ci-demoandpoc-common-cicd
+  description: ci-demoandpoc-common-cicd
   annotations:
-    jenkins.io/github-folder: demoandpoc/ci-demoandpoc-common-cicd
+    jenkins.io/github-folder: '[demoandpoc/ci-demoandpoc-common-cicd]'
   tags:
     - go
 spec:
