@@ -4,7 +4,7 @@ metadata:
   name: searcher-test
   description: Searcher-test
   annotations:
-    github.com/project-slug: duxianghua/backstage
+    jenkins.io/job-full-name: demoandpoc/ci-demoandpoc-common-cicd
   tags:
     - go
 spec:
