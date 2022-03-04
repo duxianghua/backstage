@@ -4,7 +4,7 @@ metadata:
   name: searcher-test2
   description: Searcher-test2
   annotations:
-    jenkins.io/job-full-name: demoandpoc/ci-demoandpoc-common-cicd
+    jenkins.io/github-folder: demoandpoc/ci-demoandpoc-common-cicd
   tags:
     - go
 spec:
