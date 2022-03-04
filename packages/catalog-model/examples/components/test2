@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: searcher-test2
+  description: Searcher-test2
+  annotations:
+    jenkins.io/job-full-name: demoandpoc/ci-demoandpoc-common-cicd
+  tags:
+    - go
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
