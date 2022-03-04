@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: searcher
-  description: Searcher
+  name: searcher-test
+  description: Searcher-test
   tags:
     - go
 spec:
