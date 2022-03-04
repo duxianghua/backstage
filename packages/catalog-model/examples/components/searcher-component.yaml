@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: searcher-test
   description: Searcher-test
+  annotations:
+    github.com/project-slug: duxianghua/backstage
   tags:
     - go
 spec:
